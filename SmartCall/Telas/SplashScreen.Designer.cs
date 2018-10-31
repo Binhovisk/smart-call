@@ -34,7 +34,7 @@
             // 
             // metroProgressSpinner1
             // 
-            this.metroProgressSpinner1.Location = new System.Drawing.Point(155, 41);
+            this.metroProgressSpinner1.Location = new System.Drawing.Point(155, 63);
             this.metroProgressSpinner1.Maximum = 100;
             this.metroProgressSpinner1.Name = "metroProgressSpinner1";
             this.metroProgressSpinner1.Size = new System.Drawing.Size(80, 57);
@@ -44,7 +44,7 @@
             // 
             this.lbLoadSplash.AutoSize = true;
             this.lbLoadSplash.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.lbLoadSplash.Location = new System.Drawing.Point(145, 146);
+            this.lbLoadSplash.Location = new System.Drawing.Point(145, 151);
             this.lbLoadSplash.Name = "lbLoadSplash";
             this.lbLoadSplash.Size = new System.Drawing.Size(102, 25);
             this.lbLoadSplash.TabIndex = 1;

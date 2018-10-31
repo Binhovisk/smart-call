@@ -19,7 +19,9 @@ namespace SmartCall.Telas
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
+            Dashboard frm = new Dashboard();
+            frm.Show();
 
         }
     }

@@ -75,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Chamados.cs" />
+    <Compile Include="Classes\Database.cs" />
     <Compile Include="Classes\Funcionarios.cs" />
     <Compile Include="Classes\Pessoa.cs" />
     <Compile Include="Classes\PessoaPF.cs" />
@@ -136,7 +137,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
-    <None Include="Resources\Logo.bmp" />
     <None Include="Resources\Logo.png" />
   </ItemGroup>
   <ItemGroup />

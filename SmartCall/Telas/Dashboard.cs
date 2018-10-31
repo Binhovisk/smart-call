@@ -15,11 +15,32 @@ namespace SmartCall.Telas
         public Dashboard()
         {
             InitializeComponent();
+            
         }
 
-        private void Dashboard_Load(object sender, EventArgs e)
+        private void btnChamados_Click(object sender, EventArgs e)
         {
+            
+        }
 
+        private void btnClientes_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnFuncionarios_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnRelatorios_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnServiços_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
