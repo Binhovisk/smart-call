@@ -8,5 +8,6 @@ namespace SmartCall.Classes
 {
     class Serviços
     {
+        private string nome;
     }
 }

@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace SmartCall.Classes
 {
-    class Chamados
+    class PessoaPF
     {
-        private int codigo;
-        private string assunto;
-        private string descricao;
+        private string rg;
+        private string cpf;
     }
 }
