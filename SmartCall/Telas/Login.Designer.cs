@@ -28,13 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
             this.SuspendLayout();
+            // 
+            // metroPanel1
+            // 
+            this.metroPanel1.HorizontalScrollbarBarColor = true;
+            this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroPanel1.HorizontalScrollbarSize = 10;
+            this.metroPanel1.Location = new System.Drawing.Point(23, 45);
+            this.metroPanel1.Name = "metroPanel1";
+            this.metroPanel1.Size = new System.Drawing.Size(320, 357);
+            this.metroPanel1.TabIndex = 0;
+            this.metroPanel1.VerticalScrollbarBarColor = true;
+            this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
+            this.metroPanel1.VerticalScrollbarSize = 10;
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(366, 425);
+            this.Controls.Add(this.metroPanel1);
             this.Name = "Login";
             this.Resizable = false;
             this.Load += new System.EventHandler(this.Login_Load);
@@ -43,5 +58,7 @@
         }
 
         #endregion
+
+        private MetroFramework.Controls.MetroPanel metroPanel1;
     }
 }
