@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace SmartCall.Telas
 {
-    public partial class Login : MetroFramework.Forms.MetroForm
+    public partial class Dashboard : MetroFramework.Forms.MetroForm
     {
-        public Login()
+        public Dashboard()
         {
             InitializeComponent();
-        }
-
-        private void btnEntrar_Click(object sender, EventArgs e)
-        {
-            
-
         }
     }
 }
