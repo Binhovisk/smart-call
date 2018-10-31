@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace SmartCall.Telas
 {
-    public partial class Dashboard : MetroFramework.Forms.MetroForm
+    public partial class SplashScreen : MetroFramework.Forms.MetroForm
     {
-        public Dashboard()
+        public SplashScreen()
         {
             InitializeComponent();
-        }
-
-        private void Dashboard_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
